@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
@@ -23,6 +23,8 @@
                     <p>Description for task 1</p>
                     <button>Delete</button>
                 </div>
+                
+               
             </div>
             <div id="progress" class="task-column">
                 <div class="heading">
@@ -40,6 +42,17 @@
             </div>
         </section>
     </main>
-     <script src="script.js"></script>
+    <div class="modal add-new-task">
+        <div class="bg"></div>
+        <div class="center">
+        <input
+        type="text"
+        placeholder="Task Title"
+        />
+        <textarea placeholder="Task Description"></textarea>
+        <button id="add-new-task" class="add-task-btn">Add Task</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
